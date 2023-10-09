@@ -22,14 +22,14 @@ body{
     overflow: hidden;
 }
 .container{
-    width: 1000px;
+    width: 1200px;
     overflow: hidden;
 }
 .container .text{
     position: relative;
     color: #FFD800;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 500;
 }
 .container .text.first-text{
     color: #FFF;
@@ -43,16 +43,14 @@ body{
     width: 100%;
     background-color: #282936;
     border-left: 2px solid #FFD800;
-    animation-name: animate;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation: animate 4s infinite;
 }
 @keyframes animate{
     40%, 60%{
         left: calc(100% + 4px);
     }
     100%{
-        left: 0%;
+        right: 100%;
     }
 }	
 	</style>
